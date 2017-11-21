@@ -33,6 +33,7 @@ function initGallery() {
 //left arrow
 function left() {
 	img.style.opacity = 0;
+	img.src = '';
 	//Prevent spam click
 	leftArrow.style.pointerEvents = 'none';
 	//Timeout for fade effect
@@ -52,6 +53,7 @@ function left() {
 //right arrow
 function right() {
 	img.style.opacity = 0;
+	img.src = '';
 	//Prevent spam click
 	rightArrow.style.pointerEvents = 'none';
 	//Timeout for fade effect

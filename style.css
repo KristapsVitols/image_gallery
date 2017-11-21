@@ -29,9 +29,8 @@ body {
 
 .img-container img {
 	width: 100%;
-	border: 1px solid #333;
 	box-shadow: 2px 2px 3px #555;
-	transition: opacity 0.2s;
+	transition: opacity border 0.2s;
 }
 
 .img-container img:hover {
